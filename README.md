@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Tender CRM
 
 Автоматизированная система мониторинга и классификации тендерной документации на основе локальной LLM.
@@ -258,3 +259,7 @@ MIT
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [Qt](https://www.qt.io/)
 - [pgvector](https://github.com/pgvector/pgvector)
+=======
+# tender-crm
+Автоматизированная система мониторинга и классификации тендерной документации на основе локальной LLM
+>>>>>>> f47554d4c98646caf5aea826a25fe8ea273eea35
