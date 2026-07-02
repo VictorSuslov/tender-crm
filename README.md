@@ -72,9 +72,9 @@
 
 | Компонент | Репозиторий | Описание |
 |-----------|-------------|----------|
-| 🗄 **Database** | [tender-crm-database](https://github.com/ВАШ_ЛОГИН/tender-crm-database) | PostgreSQL 16 + pgvector, схема БД, Docker |
-| ⚙️ **Backend** | [tender-crm-backend](https://github.com/ВАШ_ЛОГИН/tender-crm-backend) | FastAPI + LLM + RAG + IMAP |
-| 🖥 **Desktop** | [tender-crm-desktop](https://github.com/ВАШ_ЛОГИН/tender-crm-desktop) | Qt 6 / C++ клиент |
+| 🗄 **Database** | [tender-crm-database](https://github.com/VictorSuslov/tender-crm-database) | PostgreSQL 16 + pgvector, схема БД, Docker |
+| ⚙️ **Backend** | [tender-crm-backend](https://github.com/VictorSuslov/tender-crm-backend) | FastAPI + LLM + RAG + IMAP |
+| 🖥 **Desktop** | [tender-crm-desktop](https://github.com/VictorSuslov/tender-crm-desktop) | Qt 6 / C++ клиент |
 
 ## 🚀 Быстрый старт
 
@@ -90,7 +90,7 @@
 
 ### Шаг 1: Развёртывание базы данных
 
-    git clone https://github.com/ВАШ_ЛОГИН/tender-crm-database.git
+    git clone https://github.com/VictorSuslov/tender-crm-database.git
     cd tender-crm-database
     cp .env.example .env
     # Отредактируйте .env — укажите пароли
@@ -102,7 +102,7 @@
 
 ### Шаг 2: Установка и запуск Backend
 
-    git clone https://github.com/ВАШ_ЛОГИН/tender-crm-backend.git
+    git clone https://github.com/VictorSuslov/tender-crm-backend.git
     cd tender-crm-backend
     python -m venv venv
     venv\Scripts\activate
@@ -121,7 +121,7 @@
 
 ### Шаг 3: Сборка и запуск Desktop
 
-    git clone https://github.com/ВАШ_ЛОГИН/tender-crm-desktop.git
+    git clone https://github.com/VictorSuslov/tender-crm-desktop.git
     # Откройте CMakeLists.txt в Qt Creator
     # Build → Run (Ctrl+R)
 
